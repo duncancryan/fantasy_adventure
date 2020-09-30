@@ -11,6 +11,10 @@ public abstract class Warrior extends Character implements IAttack{
         target.reduceHealth(damage);
     }
 
+    public Weapon getWeapon() {
+        return weapon;
+    }
+
     public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
     }
