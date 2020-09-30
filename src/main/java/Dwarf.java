@@ -1,7 +1,7 @@
 public class Dwarf extends Warrior {
 
     public Dwarf(int health, String name, Weapon weapon) {
-        super(health, name, weapon);
+        super(200, name, weapon);
     }
 
     public void attack(Character target){

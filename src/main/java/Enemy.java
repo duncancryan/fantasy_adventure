@@ -1,8 +1,15 @@
-import IAttack;
 
-public abstract class Enemy extends java.lang.Character implements IAttack {
+public abstract class Enemy extends Character implements IAttack {
 
-    public Enemy(char value) {
-        super(value);
+    private int attackPower;
+
+    public Enemy(int health, String name, int attackPower) {
+        super(health, name);
+        this.attackPower = attackPower;
     }
+
+    public void attack(Character target){
+        target.reduceHealth(this.attackPower);
+    }
+
 }
