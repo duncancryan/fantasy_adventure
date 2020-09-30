@@ -1,3 +1,7 @@
+import Enums.Treasure;
+
+import java.util.ArrayList;
+
 public abstract class Character {
 
     private int health;

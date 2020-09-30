@@ -1,5 +1,8 @@
 package Rooms;
 
+
+import Enums.Treasure;
+
 public class TreasureRoom {
 
     private Treasure treasure;
