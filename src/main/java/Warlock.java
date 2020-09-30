@@ -1,8 +1,8 @@
 
 public class Warlock extends SpellCaster {
 
-    public Warlock(int health, String name){
+    public Warlock(String name){
         super(50, name, Spell.FIREBALL, MagicCreature.OGRE);
     }
-    
+
 }
