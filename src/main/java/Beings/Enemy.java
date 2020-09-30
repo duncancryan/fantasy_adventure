@@ -1,5 +1,7 @@
 package Beings;
 
+import Behaviours.IAttack;
+
 public abstract class Enemy extends Character implements IAttack {
 
     private int attackPower;
