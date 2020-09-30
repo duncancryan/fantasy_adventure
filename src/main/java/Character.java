@@ -34,4 +34,11 @@ public abstract class Character {
         this.health += amount;
     }
 
+    public boolean checkIfDead(){
+        if (this.health <= 0){
+            return true;
+        }
+        return false;
+    }
+
 }
