@@ -25,4 +25,8 @@ public abstract class SpellCaster extends Character implements IAttack {
         this.creature = creature;
     }
 
+    public void attack(Character enemy){
+        enemy.reduceHealth(spell.getDamage());
+    }
+
 }
