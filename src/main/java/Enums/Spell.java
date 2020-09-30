@@ -1,3 +1,5 @@
+package Enums;
+
 public enum Spell {
 
     LIGHTNING("Lightningbolt", 30),

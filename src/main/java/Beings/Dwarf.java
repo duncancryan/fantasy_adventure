@@ -1,3 +1,7 @@
+package Beings;
+
+import Enums.Weapon;
+
 public class Dwarf extends Warrior {
 
     public Dwarf(int health, String name, Weapon weapon) {

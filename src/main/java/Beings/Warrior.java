@@ -1,4 +1,9 @@
-public abstract class Warrior extends Character implements IAttack{
+package Beings;
+
+import Beings.Character;
+import Enums.Weapon;
+
+public abstract class Warrior extends Character implements IAttack {
 
     private Weapon weapon;
     public Warrior(int health, String name, Weapon weapon) {

@@ -1,3 +1,7 @@
+package Beings;
+
+import Enums.HealingTool;
+
 public class Healer extends Character {
 
     private HealingTool healingTool;

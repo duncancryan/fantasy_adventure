@@ -1,3 +1,5 @@
+package Enums;
+
 public enum Weapon {
     SWORD("sword", 15),
     AXE("axe", 20),

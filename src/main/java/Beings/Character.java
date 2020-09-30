@@ -1,3 +1,5 @@
+package Beings;
+
 import Enums.Treasure;
 
 import java.util.ArrayList;

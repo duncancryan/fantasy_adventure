@@ -1,3 +1,5 @@
+package Enums;
+
 public enum HealingTool {
     POTION("potion", 50),
     LOTION("lotion", 20),

@@ -1,3 +1,9 @@
+package Beings;
+
+import Beings.Character;
+import Enums.MagicCreature;
+import Enums.Spell;
+
 public abstract class SpellCaster extends Character implements IAttack {
 
     private Spell spell;

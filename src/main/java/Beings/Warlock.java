@@ -1,3 +1,7 @@
+package Beings;
+
+import Enums.MagicCreature;
+import Enums.Spell;
 
 public class Warlock extends SpellCaster {
 

@@ -1,3 +1,7 @@
+package Beings;
+
+import Enums.Weapon;
+
 public class Knight extends Warrior{
 
     public Knight(int health, String name, Weapon weapon) {
