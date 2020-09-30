@@ -1,5 +1,6 @@
 package Beings;
 
+import Behaviours.IAttack;
 import Beings.Character;
 import Enums.MagicCreature;
 import Enums.Spell;
