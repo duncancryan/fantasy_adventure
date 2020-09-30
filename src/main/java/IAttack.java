@@ -1,3 +1,5 @@
 public interface IAttack {
-    public void attack();
+
+    public void attack(Character target);
+
 }

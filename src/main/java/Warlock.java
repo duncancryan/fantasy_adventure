@@ -1,2 +1,4 @@
-public class Warlock extends SpellCaster{
+import SpellCaster;
+
+public class Warlock extends SpellCaster {
 }

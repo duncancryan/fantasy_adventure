@@ -1,2 +1,4 @@
-public class Barbarian extends Warrior{
+import
+
+public class Barbarian extends Warrior {
 }

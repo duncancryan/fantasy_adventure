@@ -1,3 +1,6 @@
+import org.junit.Before;
+import org.junit.Test;
+
 public class MagicalCreatureTest {
 
     private MagicCreature creature;
@@ -7,6 +10,10 @@ public class MagicalCreatureTest {
         creature = new MagicCreature(50, "Gollum");
     }
 
+    @Test
+    public void hasName(){
+
+    }
 
 
 }

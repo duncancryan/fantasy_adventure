@@ -6,8 +6,12 @@ public abstract class Warrior extends Character implements IAttack{
         this.weapon = weapon;
     }
 
-    public void attack(Character target) {
+    public void attack(Character target){
         int damage = this.weapon.getDamage();
         target.reduceHealth(damage);
+    }
+
+    public void setWeapon(Weapon weapon) {
+        this.weapon = weapon;
     }
 }
