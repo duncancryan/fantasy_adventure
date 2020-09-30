@@ -1,7 +1,7 @@
 public class Knight extends Warrior{
 
     public Knight(int health, String name, Weapon weapon) {
-        super(health, name, weapon);
+        super(150, name, weapon);
     }
 
     @Override
